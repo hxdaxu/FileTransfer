@@ -60,9 +60,6 @@ public class EventManager {
                 }
             });
 
-
-
-
         }
 
 
