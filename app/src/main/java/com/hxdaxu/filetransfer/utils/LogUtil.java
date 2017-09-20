@@ -63,7 +63,7 @@ public class LogUtil {
     /**
      * 应用默认TAG
      */
-    public static final String APP_TAG = "Amigo_DataGhost";
+    public static final String APP_TAG = "FileTransfer";
     /**
      * 日志启用级别，闭区间，大于等于该级别的日志会输出
      */
