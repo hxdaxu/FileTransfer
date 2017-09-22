@@ -7,7 +7,6 @@ import com.hxdaxu.filetransfer.event.EventManager;
 import com.hxdaxu.filetransfer.event.IEventListener;
 import com.hxdaxu.filetransfer.event.IEvent;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public abstract class BaseActivity extends Activity implements IEventListener {

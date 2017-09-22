@@ -19,9 +19,9 @@ public class EventManager {
     }
 
     public static EventManager getInstance() {
-        if (eventManager != null) {
+        if (eventManager == null) {
             synchronized (EventManager.class) {
-                if (eventManager != null) {
+                if (eventManager == null) {
                     eventManager = new EventManager();
                 }
             }

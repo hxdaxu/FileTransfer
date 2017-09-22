@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="send_file">发送文件</string>
+    <string name="receive_file">接受文件</string>
+
+
+</resources>
