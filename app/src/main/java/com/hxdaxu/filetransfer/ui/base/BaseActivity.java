@@ -30,30 +30,13 @@ public abstract class BaseActivity extends Activity implements IEventListener {
     protected void beforeSetContentView(){
     }
 
-
     protected abstract int getContentView();
 
-
-
-    private void initView(){
-        getView();
-        setListener();
-        setContent();
+    /**
+     * 初始化控件
+     */
+    protected void initView(){
     }
-
-
-    /**
-     * 初始化view控件
-     */
-    protected void getView(){}
-    /**
-     * 为view控件设置监听
-     */
-    protected void setListener(){}
-    /**
-     * 设置控件初始数据
-     */
-    protected void setContent(){}
 
     /**
      * @return 监听的消息集合
